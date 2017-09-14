@@ -3,7 +3,6 @@
 ## Usage
 
 A wrapper over `snmpget` that supports configuration via inputfile.
-
 Input via `stdin` and output via `stdout` are symmetrical.
 
 ### Invocation
@@ -31,7 +30,7 @@ The SNMP metrics returned in `stdout` can be piped to the `stdin` of a subsequen
 #### Set environment variables
 
 ```console
-export PROJECT_DIR="${HOME}/src/github.com/docktermj"
+export PROJECT_DIR="${HOME}/docktermj.git"
 export REPOSITORY_DIR="${PROJECT_DIR}/python-snmp-datasource"
 ```
 
